@@ -1,0 +1,23 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Données lourdes (à télécharger avec les scripts)
+data/osrm/
+*.osm.pbf
+*.gguf
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
