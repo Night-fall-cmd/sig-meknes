@@ -1,0 +1,135 @@
+.search-wrap {
+  width: 100%;
+  max-width: 690px;
+}
+.search-bar {
+  width: 100%;
+  min-height: 64px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  padding: 7px 8px 7px 19px;
+  background: #fff;
+  border: 1px solid #e3eae4;
+  border-radius: 15px;
+  box-shadow: 0 12px 35px #183e2c0d;
+  box-sizing: border-box;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.search-bar:focus-within {
+  border-color: #6c9d87;
+  box-shadow:
+    0 0 0 4px #17614f12,
+    0 12px 35px #183e2c0d;
+}
+.search-icon {
+  font-size: 28px;
+  line-height: 1;
+  color: #6f8c7c;
+  transform: rotate(-20deg);
+}
+.search-bar input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  font: inherit;
+  color: #213e33;
+  font-size: 13px;
+}
+.search-bar input::placeholder {
+  color: #9aa79f;
+}
+.search-clear {
+  border: 0;
+  background: #f0f4f0;
+  color: #607268;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  font-size: 19px;
+  line-height: 1;
+  cursor: pointer;
+}
+.voice-button {
+  width: 39px;
+  height: 39px;
+  flex: 0 0 39px;
+  border: 1px solid #e5ece6;
+  border-radius: 10px;
+  background: #f8faf7;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  color: #2c6654;
+  transition: background 0.2s;
+}
+.voice-button svg {
+  width: 18px;
+  height: 18px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.voice-button:hover,
+.voice-button--active {
+  background: #e4f2e9;
+  border-color: #c5dfce;
+}
+.search-submit {
+  min-height: 46px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border: 0;
+  border-radius: 10px;
+  padding: 0 16px;
+  background: #174f43;
+  color: #fff;
+  font: inherit;
+  font-size: 12px;
+  font-weight: 750;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+.search-submit:hover {
+  background: #103d33;
+}
+.search-submit span {
+  font-size: 18px;
+  color: #e5c88d;
+}
+.voice-message {
+  margin: 8px 0 0 4px;
+  font-size: 12px;
+  color: #6d8174;
+}
+@media (max-width: 520px) {
+  .search-bar {
+    gap: 7px;
+    padding-left: 12px;
+    min-height: 58px;
+  }
+  .search-submit {
+    font-size: 0;
+    padding: 0 13px;
+    gap: 0;
+  }
+  .search-submit span {
+    font-size: 20px;
+  }
+  .voice-button {
+    width: 35px;
+    height: 35px;
+    flex-basis: 35px;
+  }
+  .search-bar input {
+    font-size: 12px;
+  }
+}

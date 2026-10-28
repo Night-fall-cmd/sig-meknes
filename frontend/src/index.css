@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+:root {
+  font-family:
+    'DM Sans',
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    sans-serif;
+  color: #203e32;
+  background: #f8faf7;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 24px;
+}
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+button,
+input {
+  font: inherit;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid #8ab89a;
+  outline-offset: 3px;
+}
+a {
+  color: inherit;
+}
+::selection {
+  background: #d3e8d5;
+  color: #173d2e;
+}
+
+/* ─── Midnight Atlas theme ─────────────────────────────────────────────── */
+:root {
+  color: #e8edf5;
+  background: #080d16;
+  color-scheme: dark;
+  --bg: #080d16;
+  --surface: #101827;
+  --surface-2: #141f30;
+  --line: #263348;
+  --muted: #91a0b5;
+  --text: #e8edf5;
+  --emerald: #55e0ad;
+  --gold: #e9c47a;
+}
+body {
+  background: #080d16;
+  color: #e8edf5;
+}
+::selection {
+  background: #55e0ad;
+  color: #07120f;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline-color: #55e0ad;
+}
+.app-shell {
+  background: radial-gradient(ellipse at 50% -20%, #172b3a 0%, #080d16 55%);
+}
+.site-header {
+  background: rgba(8, 13, 22, 0.9);
+  backdrop-filter: blur(18px);
+  border-bottom-color: #253247;
+}
+.brand-mark {
+  background: linear-gradient(145deg, #55e0ad, #168b78);
+  color: #07130f;
+  box-shadow: 0 7px 24px #31c99b26;
+}
+.brand-mark span {
+  color: #17251d;
+}
+.brand-copy strong {
+  color: #f0f4fb;
+}
+.brand-copy small {
+  color: #7f91a9;
+}
+.main-nav__link {
+  color: #94a3b8;
+}
+.main-nav__link:hover,
+.main-nav__link--active {
+  color: #55e0ad;
+}
+.header-cta {
+  background: #55e0ad;
+  color: #07130f;
+  box-shadow: 0 7px 22px #31c99b20;
+}
+.header-cta:hover {
+  background: #7aefc5;
+}
+.header-cta span {
+  color: #143b2f;
+}
+.hero {
+  background:
+    radial-gradient(ellipse at 82% 20%, #1a3440 0%, transparent 42%),
+    linear-gradient(120deg, #0b111d, #0e1724 60%, #101e2a);
+  border-bottom-color: #263449;
+}
+.eyebrow {
+  color: #75dcb7;
+}
+.eyebrow__dot {
+  background: #e9c47a;
+  box-shadow: 0 0 0 4px #e9c47a20;
+}
+.hero h1 {
+  color: #f0f4fb;
+}
+.hero h1 span {
+  color: #55e0ad;
+}
+.hero__description {
+  color: #9aa9bc;
+}
+.hero__trust {
+  color: #9aa9bc;
+}
+.mini-check {
+  background: #173d35;
+  color: #65e6b6;
+}
+.visual-orbit {
+  border-color: #2e5260;
+}
+.visual-orbit--two {
+  border-color: #3a5361;
+}
+.visual-card {
+  border-color: #3d5963;
+  background: linear-gradient(145deg, #203e43, #142a34);
+  box-shadow: 0 25px 70px #0006;
+}
+.visual-card__top,
+.visual-card__bottom {
+  color: #a7d8c8;
+}
+.visual-card__star {
+  color: #e9c47a;
+}
+.visual-arch {
+  border-color: #2d8270;
+  background: linear-gradient(90deg, #1d695f, #4a9d86 48%, #245c56);
+  box-shadow: inset 9px 0 0 #164b47;
+}
+.visual-arch__inner {
+  border-color: #b4d7bd;
+}
+.visual-arch__door {
+  border-color: #205c52;
+  background: linear-gradient(90deg, #123d3b, #3d8272);
+}
+.floating-chip {
+  background: #131f2d;
+  border-color: #2a3b4e;
+  color: #dce7ef;
+  box-shadow: 0 12px 30px #0005;
+}
+.status-dot {
+  background: #55e0ad;
+  box-shadow: 0 0 0 4px #55e0ad20;
+}
+.content-section {
+  color: #e8edf5;
+}
+.section-kicker {
+  color: #55b995;
+}
+.section-heading h2 {
+  color: #eef3fa;
+}
+.section-heading p {
+  color: #91a0b5;
+}
+.data-pill {
+  border-color: #2b3a4f;
+  background: #111b2a;
+  color: #b6c6d7;
+}
+.data-pill__dot {
+  background: #55e0ad;
+}
+.notice--error {
+  background: #2b1b20;
+  border-color: #63333a;
+  color: #ffb9b9;
+}
+.button--secondary {
+  border-color: #33465a;
+  background: #172334;
+  color: #b9d9ce;
+}
+.category-button {
+  border-color: #2a394d;
+  background: #111b29;
+  color: #9caec2;
+  box-shadow: none;
+}
+.category-button:hover {
+  border-color: #3c8c78;
+  background: #152c2e;
+  color: #8ce8c8;
+}
+.category-button--active,
+.category-button--active:hover {
+  border-color: #55e0ad;
+  background: #55e0ad;
+  color: #07130f;
+  box-shadow: 0 5px 20px #31c99b20;
+}
+.empty-state {
+  border-color: #304156;
+  background: #0f1825;
+}
+.empty-state__icon {
+  background: #17352f;
+  color: #55e0ad;
+}
+.empty-state h3 {
+  color: #e5edf5;
+}
+.empty-state p {
+  color: #91a0b5;
+}
+.place-skeleton {
+  border-color: #27374b;
+  background: #111b29;
+}
+.place-skeleton div {
+  background: linear-gradient(90deg, #1b2939, #25364a, #1b2939);
+  background-size: 200% 100%;
+}
+.place-skeleton span {
+  background: #243247;
+}
+.site-footer {
+  border-top-color: #263449;
+  background: #080d16;
+  color: #7f90a7;
+}
+.site-footer__brand strong {
+  color: #dce7f1;
+}
+.site-footer__brand small {
+  color: #7f90a7;
+}
+.search-bar {
+  background: #111b29;
+  border-color: #2c3b50;
+  box-shadow: 0 14px 40px #0003;
+}
+.search-bar:focus-within {
+  border-color: #55cba4;
+  box-shadow:
+    0 0 0 4px #55e0ad18,
+    0 14px 40px #0003;
+}
+.search-icon {
+  color: #78cdb1;
+}
+.search-bar input {
+  color: #edf3fa;
+}
+.search-bar input::placeholder {
+  color: #74869c;
+}
+.search-clear {
+  background: #263448;
+  color: #c5d3e1;
+}
+.voice-button {
+  border-color: #304157;
+  background: #172435;
+  color: #75e2bc;
+}
+.voice-button:hover,
+.voice-button--active {
+  background: #1b3d37;
+  border-color: #397c69;
+}
+.search-submit {
+  background: #55e0ad;
+  color: #07130f;
+}
+.search-submit:hover {
+  background: #7aefc5;
+}
+.search-submit span {
+  color: #163d31;
+}
+.voice-message {
+  color: #91b9ad;
+}
+.place-card {
+  border-color: #29394d;
+  background: #111b29;
+  color: #e8edf5;
+  box-shadow: 0 7px 24px #0002;
+}
+.place-card:hover {
+  border-color: #3c8f79;
+  box-shadow: 0 16px 36px #0005;
+}
+.place-card--selected {
+  border-color: #55e0ad;
+  box-shadow: 0 0 0 3px #55e0ad20;
+}
+.place-card__image {
+  background: #172536;
+}
+.place-card__placeholder {
+  background: radial-gradient(circle at 50% 15%, #32483f, #1b3037 62%, #12212d);
+}
+.place-card__placeholder span {
+  color: #65d7ae;
+}
+.place-card__placeholder small {
+  color: #a8c9bd;
+}
+.place-card__category {
+  background: #101b28ed;
+  color: #8ce8c8;
+  border: 1px solid #3c665d;
+  box-shadow: none;
+}
+.place-card__title-row h3 {
+  color: #edf3fa;
+}
+.place-card__arrow {
+  color: #7c9aab;
+}
+.place-card__address {
+  color: #8fa0b4;
+}
+.place-card__description {
+  color: #a2b0c1;
+}
+.place-card__details {
+  color: #65dfb5;
+}
+.map-panel {
+  border-color: #29394d;
+  background: #111b29;
+  box-shadow: 0 10px 35px #0003;
+}
+.map-panel__top {
+  border-bottom-color: #29394d;
+}
+.map-legend {
+  color: #d5e2ee;
+}
+.map-legend__marker {
+  background: #55e0ad;
+  box-shadow: 0 0 0 4px #55e0ad22;
+}
+.map-panel__hint {
+  color: #8fa0b5;
+}
+.map-frame {
+  background: #0e1723;
+}
+.map-panel__bottom {
+  background: #0f1926;
+  color: #8496ac;
+}
+.map-empty-overlay {
+  background: #111d2bed;
+  border-color: #33465c;
+  box-shadow: 0 12px 40px #0006;
+}
+.map-empty-overlay__icon {
+  background: #193b34;
+  color: #65e6b6;
+}
+.map-empty-overlay strong {
+  color: #e7eff8;
+}
+.map-empty-overlay span {
+  color: #9aadc0;
+}
+.custom-map-marker__pin {
+  background: #55e0ad;
+  border-color: #eafff6;
+  box-shadow: 0 3px 14px #0009;
+}
+.custom-map-marker__pin span {
+  background: #102b27;
+}
+.map-popup strong {
+  color: #e7f7f1;
+}
+.map-popup span {
+  color: #a2f2d7;
+  background: #193b34;
+}
+.map-popup p {
+  color: #c1ccda;
+}
+.map-popup small {
+  color: #8fa0b5;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #111d2b;
+  color: #e8edf5;
+}
+.leaflet-popup-content {
+  color: #e8edf5;
+}
+.leaflet-control-zoom a {
+  background: #111d2b !important;
+  color: #dce8f3 !important;
+  border-color: #34465a !important;
+}
+.leaflet-control-attribution {
+  background: #0d1722d9 !important;
+  color: #9aabc0 !important;
+}
+.leaflet-control-attribution a {
+  color: #67dcb5 !important;
+}
+/* Give standard OpenStreetMap tiles a subdued night-map look without changing the map data. */
+.tourist-map .leaflet-tile-pane {
+  filter: brightness(0.68) invert(0.88) hue-rotate(180deg) saturate(0.55)
+    contrast(0.9);
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero h1 span {
+    text-shadow: 0 0 35px #55e0ad20;
+  }
+}
