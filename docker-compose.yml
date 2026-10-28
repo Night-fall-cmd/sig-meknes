@@ -1,3 +1,4 @@
+
 services:
   db:
     image: postgis/postgis:16-3.4
@@ -36,6 +37,14 @@ services:
       - /app/node_modules
     depends_on:
       - backend
+
+  osrm:
+    image: osrm/osrm-backend
+    command: osrm-routed --algorithm mld /data/morocco-latest.osrm
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./data/osrm:/data
 
 volumes:
   pgdata:
