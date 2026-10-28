@@ -79,6 +79,7 @@ export default function MapView({ places = [], selectedPlace, onSelectPlace }) {
                   {place.category && <span>{place.category}</span>}
                   {place.description && <p>{place.description}</p>}
                   {place.address && <small>{place.address}</small>}
+                  {place.horaires && <small>🕒 {place.horaires}</small>}
                 </div>
               </Popup>
             </Marker>

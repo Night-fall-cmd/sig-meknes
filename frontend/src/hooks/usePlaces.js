@@ -1,8 +1,13 @@
 import { useCallback, useEffect, useState } from 'react';
 
-const API_BASE = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '');
+// FastAPI backend (docker-compose exposes it on port 8000).
+// Override with VITE_API_URL in frontend/.env if needed.
+const API_BASE = (
+  import.meta.env.VITE_API_URL || 'http://localhost:8000'
+).replace(/\/$/, '');
+// GET /pois  ->  GeoJSON FeatureCollection (optional filter: /pois?categorie=Monument)
 const PLACES_ENDPOINT =
-  import.meta.env.VITE_PLACES_ENDPOINT || `${API_BASE}/api/places`;
+  import.meta.env.VITE_PLACES_ENDPOINT || `${API_BASE}/pois`;
 
 function normalizePlace(item, index) {
   const coordinates = item.coordinates || item.geometry?.coordinates;
@@ -25,7 +30,15 @@ function normalizePlace(item, index) {
     description: item.description ?? item.desc ?? item.summary ?? '',
     category: item.category ?? item.categorie ?? item.type ?? 'Autre',
     address: item.address ?? item.adresse ?? '',
-    image: item.image ?? item.image_url ?? item.photo ?? item.photo_url ?? '',
+    // /pois returns `photos` as an array of URLs (may be empty).
+    image:
+      item.image ??
+      item.image_url ??
+      item.photo ??
+      item.photo_url ??
+      (Array.isArray(item.photos) ? item.photos[0] : undefined) ??
+      '',
+    horaires: item.horaires ?? '',
     latitude: Number.isFinite(lat) && lat >= -90 && lat <= 90 ? lat : null,
     longitude: Number.isFinite(lng) && lng >= -180 && lng <= 180 ? lng : null,
   };
