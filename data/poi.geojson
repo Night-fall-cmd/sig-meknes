@@ -1,0 +1,1005 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.564639,
+     33.892611
+    ]
+   },
+   "properties": {
+    "id": 1,
+    "nom": "Bab Mansour",
+    "categorie": "Monument",
+    "adresse": "Place El Hedim",
+    "horaires": "À vérifier sur place",
+    "description": "Porte monumentale de la ville impériale, construite à la fin du XVIIe et au début du XVIIIe siècle comme entrée cérémonielle de la kasbah de Moulay Ismaïl. Elle donne sur la place El Hedim.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.562944,
+     33.891
+    ]
+   },
+   "properties": {
+    "id": 2,
+    "nom": "Mausolée Moulay Ismaïl",
+    "categorie": "Monument",
+    "adresse": "Avenue Bab Marrah",
+    "horaires": "ATTENTION : annoncé fermé pour rénovation depuis 2016 (Lonely Planet), à confirmer",
+    "description": "Complexe funéraire de Moulay Ismaïl, sultan de 1672 à 1727, bâti en 1703 dans l'ancienne kasbah, avec cours, salles et tombeau. C'est aussi un lieu de recueillement pour de nombreux Marocains.",
+    "photos": [],
+    "source": "Wikipedia - Mausoleum of Moulay Ismail; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.565362,
+     33.893125
+    ]
+   },
+   "properties": {
+    "id": 3,
+    "nom": "Place El Hedim",
+    "categorie": "Site historique",
+    "adresse": "Médina",
+    "horaires": "Accès libre (place publique), à vérifier",
+    "description": "La plus grande place de la médina, au pied de Bab Mansour. C'est un bon point de départ pour explorer la ville.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.557493,
+     33.880535
+    ]
+   },
+   "properties": {
+    "id": 4,
+    "nom": "Heri es-Souani (greniers royaux)",
+    "categorie": "Site historique",
+    "adresse": "",
+    "horaires": "À vérifier sur place",
+    "description": "Anciens greniers et écuries de Moulay Ismaïl, aux immenses voûtes, qui servaient à stocker les réserves de la ville et à nourrir l'armée.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.565278,
+     33.895194
+    ]
+   },
+   "properties": {
+    "id": 5,
+    "nom": "Médersa Bou Inania",
+    "categorie": "Monument",
+    "adresse": "Médina, en face de la Grande Mosquée",
+    "horaires": "À vérifier sur place",
+    "description": "Ancienne école coranique de l'époque mérinide, située en face de la Grande Mosquée.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.564944,
+     33.894861
+    ]
+   },
+   "properties": {
+    "id": 6,
+    "nom": "Grande Mosquée de Meknès",
+    "categorie": "Monument",
+    "adresse": "Médina",
+    "horaires": "Extérieur seulement (à vérifier)",
+    "description": "Principale mosquée de la médina, fondée au XIIe siècle et remaniée au XIVe siècle.",
+    "photos": [],
+    "source": "Wikipedia - Grand Mosque of Meknes; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5652,
+     33.89662
+    ]
+   },
+   "properties": {
+    "id": 7,
+    "nom": "Mosquée Nejjarine",
+    "categorie": "Monument",
+    "adresse": "Médina de Meknès",
+    "horaires": "Horaires non publiés; accès intérieur à confirmer",
+    "description": "Mosquée souvent considérée comme la plus ancienne de la ville, datant de l'époque almoravide.",
+    "photos": [],
+    "source": "Wikipedia - Meknes; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5641,
+     33.8969
+    ]
+   },
+   "properties": {
+    "id": 8,
+    "nom": "Mosquée Zaytouna",
+    "categorie": "Monument",
+    "adresse": "Rue Jamaa Zitouna, médina",
+    "horaires": "Horaires de prière; accès des visiteurs à confirmer",
+    "description": "À rédiger : mosquée de la médina de Meknès.",
+    "photos": [],
+    "source": "https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.561417,
+     33.893056
+    ]
+   },
+   "properties": {
+    "id": 9,
+    "nom": "Mosquée Lalla Aouda",
+    "categorie": "Monument",
+    "adresse": "Place Lalla Aouda",
+    "horaires": "Extérieur seulement (à vérifier)",
+    "description": "Mosquée de l'ancienne kasbah, reconstruite par Moulay Ismaïl entre 1672 et 1678. Elle donne sur la place Lalla Aouda, derrière Bab Mansour.",
+    "photos": [],
+    "source": "Wikipedia - Lalla Aouda Mosque; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.572407,
+     33.891402
+    ]
+   },
+   "properties": {
+    "id": 10,
+    "nom": "Bab El Khémis",
+    "categorie": "Monument",
+    "adresse": "",
+    "horaires": "Accès libre (porte), à vérifier",
+    "description": "Magnifique porte de la médina, qui ouvre sur les ruelles et la Grande Mosquée.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.568317,
+     33.901082
+    ]
+   },
+   "properties": {
+    "id": 11,
+    "nom": "Bab Berdaine",
+    "categorie": "Monument",
+    "adresse": "",
+    "horaires": "Accès libre (porte), à vérifier",
+    "description": "Porte nord de la médina. La mosquée voisine, inaugurée en 1709, a été inscrite au patrimoine national en 2024.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture) ; Hespress (2024); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.554453,
+     33.887267
+    ]
+   },
+   "properties": {
+    "id": 12,
+    "nom": "Palais Dar el-Makhzen",
+    "categorie": "Monument",
+    "adresse": "",
+    "horaires": "À vérifier (résidence royale)",
+    "description": "Ancienne résidence royale du temps de Moulay Ismaïl, au XVIIe siècle. Vérifier si une visite est possible.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.564999,
+     33.890938
+    ]
+   },
+   "properties": {
+    "id": 13,
+    "nom": "Koubba El Khayatine (pavillon des ambassadeurs)",
+    "categorie": "Monument",
+    "adresse": "Cité impériale",
+    "horaires": "À vérifier sur place",
+    "description": "Pavillon où les sultans recevaient des personnalités importantes, notamment des ambassadeurs.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.564624,
+     33.891129
+    ]
+   },
+   "properties": {
+    "id": 14,
+    "nom": "Prison de Qara",
+    "categorie": "Site historique",
+    "adresse": "Cité impériale, près de la Koubba El Khayatine",
+    "horaires": "À vérifier sur place",
+    "description": "Ancienne prison de l'époque de Moulay Ismaïl, dans la cité impériale.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.560209,
+     33.881548
+    ]
+   },
+   "properties": {
+    "id": 15,
+    "nom": "Bassin de l'Agdal (Sahrij Swani)",
+    "categorie": "Site historique",
+    "adresse": "",
+    "horaires": "Accès libre, à vérifier",
+    "description": "Grand bassin qui servait à arroser les jardins et aux loisirs du sultan. C'est un lieu de pause agréable après la médina.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.564452,
+     33.894796
+    ]
+   },
+   "properties": {
+    "id": 16,
+    "nom": "Médersa Filaliya",
+    "categorie": "Monument",
+    "adresse": "Médina",
+    "horaires": "À vérifier sur place",
+    "description": "Médersa de la médina, classée parmi les monuments protégés par le ministère de la Culture.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5672,
+     33.8993
+    ]
+   },
+   "properties": {
+    "id": 17,
+    "nom": "Zaouia de Sidi Mohammed Ben Aïssa",
+    "categorie": "Monument",
+    "adresse": "Médina, au sud de Bab Berdaine",
+    "horaires": "Horaires non publiés; accès à confirmer",
+    "description": "Sanctuaire du grand saint de Meknès, fondateur de la confrérie des Aïssaoua, situé dans la médina.",
+    "photos": [],
+    "source": "Morocco World News (2021); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5702,
+     33.8899
+    ]
+   },
+   "properties": {
+    "id": 18,
+    "nom": "Mellah de Meknès",
+    "categorie": "Site historique",
+    "adresse": "Mellah, Meknès",
+    "horaires": "Accès libre en permanence (quartier public)",
+    "description": "Ancien quartier juif de la ville, dont l'architecture contraste avec les façades sobres de la médina.",
+    "photos": [],
+    "source": "Carnet de voyage (Routard); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5588,
+     33.8895
+    ]
+   },
+   "properties": {
+    "id": 19,
+    "nom": "Remparts de la ville impériale",
+    "categorie": "Site historique",
+    "adresse": "Cité impériale et médina de Meknès",
+    "horaires": "Visible en permanence depuis l’espace public",
+    "description": "Plus de 40 km de remparts entourent la médina. À placer comme point ou ligne dans OSM.",
+    "photos": [],
+    "source": "Barceló ; Penang Travel Tips; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.564481,
+     33.894857
+    ]
+   },
+   "properties": {
+    "id": 20,
+    "nom": "Souks de la médina",
+    "categorie": "Site historique",
+    "adresse": "Médina, autour de la place El Hedim",
+    "horaires": "Variables, à vérifier",
+    "description": "Souks de la médina, autour de la place El Hedim, où l'on trouve de l'artisanat local, notamment le damasquinage.",
+    "photos": [],
+    "source": "Wikipedia (point central de la médina) ; DFDS; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5708,
+     33.8888
+    ]
+   },
+   "properties": {
+    "id": 21,
+    "nom": "Centre artisanal de la Nouvelle Mellah",
+    "categorie": "Artisanat",
+    "adresse": "Nouvelle Mellah, Meknès",
+    "horaires": "Horaires variables selon les ateliers",
+    "description": "Un des meilleurs endroits de la ville pour acheter de l'artisanat local.",
+    "photos": [],
+    "source": "DFDS; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.566557,
+     33.893767
+    ]
+   },
+   "properties": {
+    "id": 22,
+    "nom": "Musée Dar Jamaï",
+    "categorie": "Musée",
+    "adresse": "Place El Hedim",
+    "horaires": "À vérifier sur place",
+    "description": "Palais du XIXe siècle devenu musée, qui témoigne du mode de vie de la haute bourgeoisie marocaine.",
+    "photos": [],
+    "source": "Wikipedia - liste des monuments de Meknès (coordonnées du ministère de la Culture); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5555,
+     34.0737
+    ]
+   },
+   "properties": {
+    "id": 23,
+    "nom": "Volubilis",
+    "categorie": "Site historique",
+    "adresse": "À environ 30 km de Meknès",
+    "horaires": "À vérifier sur place",
+    "description": "Ruines romaines classées au patrimoine mondial de l'UNESCO, à environ 30 km de Meknès.",
+    "photos": [],
+    "source": "Vici.org ; Barceló; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.555381,
+     34.074032
+    ]
+   },
+   "properties": {
+    "id": 24,
+    "nom": "Arc de triomphe de Caracalla (Volubilis)",
+    "categorie": "Site historique",
+    "adresse": "Volubilis",
+    "horaires": "Dans le site de Volubilis",
+    "description": "Arc de triomphe en marbre élevé en 211 en l'honneur de l'empereur Caracalla et de sa mère Julia Domna.",
+    "photos": [],
+    "source": "Vici.org; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.52722,
+     34.05417
+    ]
+   },
+   "properties": {
+    "id": 25,
+    "nom": "Moulay Idriss Zerhoun",
+    "categorie": "Site historique",
+    "adresse": "Au pied du mont Zerhoun",
+    "horaires": "À vérifier sur place",
+    "description": "Ville sainte au pied du mont Zerhoun, qui abrite le tombeau d'Idris Ier, premier grand souverain musulman du Maroc.",
+    "photos": [],
+    "source": "Wikipedia - Moulay Idriss Zerhoun; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5708,
+     33.8922
+    ]
+   },
+   "properties": {
+    "id": 26,
+    "nom": "Jardin Lahboul",
+    "categorie": "Loisirs",
+    "adresse": "En contrebas de la médina, près de Bab Mansour",
+    "horaires": "Tous les jours 09:30-18:00; à reconfirmer avant déplacement",
+    "description": "Jardin public historique aménagé en terrasses au-dessus de la vallée du Boufekrane, près des remparts de la médina. Restauré et rouvert en 2024, il comprend des allées ombragées, des fontaines et un théâtre de plein air.",
+    "photos": [],
+    "source": "https://jardinlahboul.ma/; https://morokko.net/regions/fes/meknes/jardin-historique-lahboul"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.56425,
+     33.89022
+    ]
+   },
+   "properties": {
+    "id": 27,
+    "nom": "Royal Golf de Meknès",
+    "categorie": "Loisirs",
+    "adresse": "J’nane Bahraouia, Bab Belkari, 50000 Meknès",
+    "horaires": "Sur réservation; horaires non publiés",
+    "description": "Parcours de golf de neuf trous installé dans les jardins de la cité impériale. Clos par les remparts et planté d’oliviers, de palmiers et d’arbres fruitiers, il offre un cadre singulier au cœur de Meknès.",
+    "photos": [],
+    "source": "https://frmg.ma/royal-golf-de-meknes/; https://www.openstreetmap.org/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.54557,
+     33.89987
+    ]
+   },
+   "properties": {
+    "id": 28,
+    "nom": "Gare de Meknès El Amir Abdelkader",
+    "categorie": "Transport",
+    "adresse": "Avenue Amir Abdelkader, Hamriya, Meknès",
+    "horaires": "Selon les horaires des trains ONCF; gare accessible pendant le service",
+    "description": "Gare ferroviaire de Meknès (nouvelle ville).",
+    "photos": [],
+    "source": "https://www.oncf-voyages.ma/; https://fr.wikipedia.org/wiki/Gare_de_Mekn%C3%A8s-Amir_Abdelkader"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.560434,
+     33.893864
+    ]
+   },
+   "properties": {
+    "id": 29,
+    "nom": "Le Collier de la Colombe (restaurant)",
+    "categorie": "Restaurant",
+    "adresse": "67 Rue Driba, médina",
+    "horaires": "Tous les jours 09:00-20:00; à reconfirmer",
+    "description": "Maison d'hôtes et restaurant de cuisine marocaine dans le quartier historique, avec terrasse sur le toit. À 6 minutes à pied de la place El Hedim.",
+    "photos": [],
+    "source": "https://www.lecollierdelacolombe.com/; https://www.openstreetmap.org/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.564201,
+     33.89449
+    ]
+   },
+   "properties": {
+    "id": 30,
+    "nom": "Riad d'Or (restaurant)",
+    "categorie": "Restaurant",
+    "adresse": "17 Rue Ain El Anboub / Derb Lalla Aicha Adouia",
+    "horaires": "Restaurant sur réservation; hébergement ouvert 24 h/24",
+    "description": "Riad avec restaurant de plats traditionnels (tajines, couscous), près de la place El Hedim et de Bab Mansour.",
+    "photos": [],
+    "source": "https://riad-dor.com/; https://www.openstreetmap.org/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.56599,
+     33.89387
+    ]
+   },
+   "properties": {
+    "id": 31,
+    "nom": "Riad Ritaj (restaurant)",
+    "categorie": "Restaurant",
+    "adresse": "13 Sidi Amer Bouaouada, médina",
+    "horaires": "Réception 24 h/24; restaurant pour les clients et sur demande",
+    "description": "Riad avec restaurant, dans la médina.",
+    "photos": [],
+    "source": "http://www.riadritaj.com/; https://www.openstreetmap.org/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.563875,
+     33.89696
+    ]
+   },
+   "properties": {
+    "id": 32,
+    "nom": "Restaurant traditionnel Zitouna",
+    "categorie": "Restaurant",
+    "adresse": "44-50 Rue Jamaa Zitouna, médina",
+    "horaires": "Tous les jours 10:00-23:00; à reconfirmer",
+    "description": "Restaurant traditionnel de la médina, à environ 7 minutes à pied du Collier de la Colombe.",
+    "photos": [],
+    "source": "https://www.restaurantzitouna.ma/; https://www.openstreetmap.org/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.56595,
+     33.89435
+    ]
+   },
+   "properties": {
+    "id": 33,
+    "nom": "Restaurant Dar Lalla Khadra",
+    "categorie": "Restaurant",
+    "adresse": "14 Sidi Ahmed Ben Khadra, médina",
+    "horaires": "À partir de 09:00; heure de fermeture à confirmer",
+    "description": "Cuisine marocaine, avec une terrasse qui offre une vue sur Meknès. Budget : environ 50-100 MAD.",
+    "photos": [],
+    "source": "Google Maps (adresse, budget); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5751,
+     33.89315
+    ]
+   },
+   "properties": {
+    "id": 34,
+    "nom": "Restaurant Lahboul Tafilalet",
+    "categorie": "Restaurant",
+    "adresse": "55 Bis Avenue Lahboul, Meknès",
+    "horaires": "À partir de 10:00; heure de fermeture à confirmer",
+    "description": "Restaurant de la ville moderne. Budget : environ 100-150 MAD.",
+    "photos": [],
+    "source": "Google Maps (adresse, budget); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5484,
+     33.9006
+    ]
+   },
+   "properties": {
+    "id": 35,
+    "nom": "La Braise",
+    "categorie": "Restaurant",
+    "adresse": "Rue Antsirabé, Hamriya, Meknès",
+    "horaires": "Horaires non publiés; appeler avant déplacement",
+    "description": "Restaurant de grillades et de pâtes. Budget : environ 50-100 MAD.",
+    "photos": [],
+    "source": "Google Maps (adresse, budget); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5406,
+     33.9031
+    ]
+   },
+   "properties": {
+    "id": 36,
+    "nom": "Delicacie",
+    "categorie": "Restaurant",
+    "adresse": "Rue Badr, Meknès",
+    "horaires": "À partir de 07:30; heure de fermeture à confirmer",
+    "description": "Restaurant ouvert tôt le matin, aux prix variés. Budget : environ 50-250 MAD.",
+    "photos": [],
+    "source": "Google Maps (adresse, budget); https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.542908,
+     33.897182
+    ]
+   },
+   "properties": {
+    "id": 37,
+    "nom": "Hôtel Akouas",
+    "categorie": "Hôtel",
+    "adresse": "27 Rue Amir Abdelkader, 50000 Meknès",
+    "horaires": "Réception 24 h/24",
+    "description": "Hôtel avec piscine intérieure.",
+    "photos": [],
+    "source": "https://www.hotelakouas.com/; https://www.openstreetmap.org/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5387,
+     33.89625
+    ]
+   },
+   "properties": {
+    "id": 38,
+    "nom": "Hôtel Belle Vue",
+    "categorie": "Hôtel",
+    "adresse": "Avenue des FAR, Hamriya, Meknès",
+    "horaires": "Réception 24 h/24",
+    "description": "Hôtel à 10 minutes à pied de la gare.",
+    "photos": [],
+    "source": "Frommer's; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5481,
+     33.899
+    ]
+   },
+   "properties": {
+    "id": 39,
+    "nom": "Hôtel de Nice",
+    "categorie": "Hôtel",
+    "adresse": "Centre-ville de Meknès",
+    "horaires": "Réception 24 h/24; appeler avant arrivée",
+    "description": "Hôtel du centre de Meknès, à 10 minutes à pied de la gare.",
+    "photos": [],
+    "source": "Frommer's; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5752,
+     33.8937
+    ]
+   },
+   "properties": {
+    "id": 40,
+    "nom": "Hôtel Oasis Tafilalet",
+    "categorie": "Hôtel",
+    "adresse": "Avenue Lahboul, Meknès",
+    "horaires": "Réception 24 h/24; appeler avant arrivée",
+    "description": "Hôtel situé dans le secteur de Lahboul, à proximité du centre historique de Meknès. Il constitue un point de départ pratique pour rejoindre la médina et les principaux monuments.",
+    "photos": [],
+    "source": "https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.53795,
+     33.90075
+    ]
+   },
+   "properties": {
+    "id": 41,
+    "nom": "Hôtel Tafilalet & Spa",
+    "categorie": "Hôtel",
+    "adresse": "Avenue des FAR, Meknès",
+    "horaires": "Réception 24 h/24",
+    "description": "Hôtel avec piscine intérieure et spa.",
+    "photos": [],
+    "source": "Frommer's; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5661,
+     33.89418
+    ]
+   },
+   "properties": {
+    "id": 42,
+    "nom": "Riad Benchekroun",
+    "categorie": "Hôtel",
+    "adresse": "Médina, près de la place El Hedim",
+    "horaires": "Réception sur place; arrivée à convenir",
+    "description": "Riad d'architecture marocaine traditionnelle, à 10 minutes à pied du musée Dar Jamaï.",
+    "photos": [],
+    "source": "Frommer's; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5649,
+     33.8947
+    ]
+   },
+   "properties": {
+    "id": 43,
+    "nom": "Riad Lola Halima",
+    "categorie": "Hôtel",
+    "adresse": "Médina de Meknès",
+    "horaires": "Arrivée à convenir avec l’établissement",
+    "description": "Riad avec terrasse, fontaine en mosaïque et décoration meknassie.",
+    "photos": [],
+    "source": "Frommer's; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.56705,
+     33.89555
+    ]
+   },
+   "properties": {
+    "id": 44,
+    "nom": "Riad La Maison d'à Côté",
+    "categorie": "Hôtel",
+    "adresse": "25 Derb Lakhouaja, médina",
+    "horaires": "Réception sur place; arrivée à convenir",
+    "description": "Maison d’hôtes traditionnelle dans la médina de Meknès, installée autour d’un patio. Son emplacement permet de rejoindre à pied la place El Hedim et les souks.",
+    "photos": [],
+    "source": "https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5622,
+     33.8929
+    ]
+   },
+   "properties": {
+    "id": 45,
+    "nom": "Riad Yacout",
+    "categorie": "Hôtel",
+    "adresse": "22 Place Lalla Aouda, médina",
+    "horaires": "Réception 24 h/24; à reconfirmer",
+    "description": "Riad dans le centre de la médina, à 2 minutes à pied de la place El Hedim et de Bab Mansour.",
+    "photos": [],
+    "source": "LetsBookHotel; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5638,
+     33.89645
+    ]
+   },
+   "properties": {
+    "id": 46,
+    "nom": "Riad Menthe et Citron",
+    "categorie": "Hôtel",
+    "adresse": "8 Derb Benabbou, Rue Jamaa Zitouna",
+    "horaires": "Arrivée à convenir avec l’établissement",
+    "description": "Maison d'hôtes dans la médina de Meknès.",
+    "photos": [],
+    "source": "LetsBookHotel; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5661,
+     33.8957
+    ]
+   },
+   "properties": {
+    "id": 47,
+    "nom": "Riad Felloussia",
+    "categorie": "Hôtel",
+    "adresse": "23 Derb Hammam Jdid, médina",
+    "horaires": "Arrivée à convenir avec l’établissement",
+    "description": "Riad de la médina installé dans une maison traditionnelle près du hammam Jdid. Il propose un hébergement de caractère à distance de marche des sites du centre historique.",
+    "photos": [],
+    "source": "LetsBookHotel; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.56485,
+     33.8961
+    ]
+   },
+   "properties": {
+    "id": 48,
+    "nom": "Riad Ines-Palace",
+    "categorie": "Hôtel",
+    "adresse": "7 Rue Farrane Bin Larrassi, médina",
+    "horaires": "Arrivée à convenir avec l’établissement",
+    "description": "Maison d’hôtes située dans les ruelles de la médina de Meknès. Elle met en valeur l’architecture intérieure marocaine et permet d’explorer les monuments voisins à pied.",
+    "photos": [],
+    "source": "LetsBookHotel; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5673,
+     33.8953
+    ]
+   },
+   "properties": {
+    "id": 49,
+    "nom": "Riad Anne de Meknès",
+    "categorie": "Hôtel",
+    "adresse": "7 Derb Sidi Moussa, médina",
+    "horaires": "Arrivée à convenir avec l’établissement",
+    "description": "Riad situé dans le derb Sidi Moussa, au cœur du tissu historique de Meknès. Il offre un hébergement traditionnel à proximité des souks et de la place El Hedim.",
+    "photos": [],
+    "source": "LetsBookHotel; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -5.5648,
+     33.89505
+    ]
+   },
+   "properties": {
+    "id": 50,
+    "nom": "Riad Amazigh",
+    "categorie": "Hôtel",
+    "adresse": "32 Derb Moulay Ahmed Chebli, médina",
+    "horaires": "Arrivée à convenir avec l’établissement",
+    "description": "Maison d’hôtes de la médina située au derb Moulay Ahmed Chebli. Le riad combine décor marocain traditionnel et accès facile aux principaux sites du centre ancien.",
+    "photos": [],
+    "source": "LetsBookHotel; https://www.openstreetmap.org/; https://visit-meknes.com/fr/balade/sites-et-monuments/"
+   }
+  }
+ ]
+}
