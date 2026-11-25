@@ -1,84 +1,92 @@
-import { useState } from 'react';
-import './SearchBar.css';
-
-export default function SearchBar({ value, onChange }) {
-  const [voiceMessage, setVoiceMessage] = useState('');
-  const [listening, setListening] = useState(false);
-
-  function startVoiceSearch() {
-    const SpeechRecognition =
-      window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (!SpeechRecognition) {
-      setVoiceMessage(
-        'La recherche vocale n’est pas disponible dans ce navigateur.'
+import { useEffect, useRef, useState } from "react";
+import { Icon, IconButton, Button } from "./UI.jsx";
+export function useVoice(onResult) {
+  const [message, setMessage] = useState(""),
+    [listening, setListening] = useState(false),
+    ref = useRef(null);
+  useEffect(
+    () => () => {
+      if (ref.current) {
+        ref.current.onend = null;
+        ref.current.onerror = null;
+        ref.current.onresult = null;
+        ref.current.abort();
+      }
+    },
+    [],
+  );
+  const start = () => {
+    if (listening) {
+      ref.current?.stop();
+      return;
+    }
+    const Speech = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!Speech) {
+      setMessage(
+        "Le micro est indisponible dans ce navigateur. Vous pouvez écrire votre recherche.",
       );
       return;
     }
-    const recognition = new SpeechRecognition();
-    recognition.lang = 'fr-FR';
-    recognition.interimResults = false;
-    recognition.maxAlternatives = 1;
-    recognition.onstart = () => {
+    const r = new Speech();
+    ref.current = r;
+    r.lang = "fr-FR";
+    r.onstart = () => {
       setListening(true);
-      setVoiceMessage('Je vous écoute…');
+      setMessage("Je vous écoute…");
     };
-    recognition.onresult = (event) => {
-      const transcript = event.results?.[0]?.[0]?.transcript || '';
-      onChange(transcript);
-      setVoiceMessage(transcript ? `Recherche : « ${transcript} »` : '');
+    r.onresult = (e) => {
+      onResult(e.results?.[0]?.[0]?.transcript || "");
+      setMessage("");
     };
-    recognition.onerror = () =>
-      setVoiceMessage('La recherche vocale a échoué. Réessayez.');
-    recognition.onend = () => setListening(false);
-    recognition.start();
-  }
-
+    r.onerror = () =>
+      setMessage(
+        "Vérifiez l’autorisation du microphone, ou écrivez votre recherche.",
+      );
+    r.onend = () => setListening(false);
+    try {
+      r.start();
+    } catch {
+      setMessage("Le microphone est indisponible.");
+    }
+  };
+  return { start, message, listening };
+}
+export default function SearchBar({
+  value,
+  onChange,
+  onSubmit,
+  placeholder = "Un monument, une adresse, une envie…",
+}) {
+  const voice = useVoice(onChange);
   return (
     <div className="search-wrap">
       <form
         className="search-bar"
-        onSubmit={(event) => event.preventDefault()}
         role="search"
+        onSubmit={(e) => {
+          e.preventDefault();
+          onSubmit?.();
+        }}
       >
-        <span className="search-icon" aria-hidden="true">
-          ⌕
-        </span>
+        <Icon name="search" />
         <input
           type="search"
+          aria-label="Rechercher un lieu"
+          placeholder={placeholder}
           value={value}
-          onChange={(event) => onChange(event.target.value)}
-          placeholder="Rechercher un monument, un musée…"
-          aria-label="Rechercher un site touristique"
+          onChange={(e) => onChange(e.target.value)}
         />
-        {value && (
-          <button
-            className="search-clear"
-            type="button"
-            onClick={() => onChange('')}
-            aria-label="Effacer la recherche"
-          >
-            ×
-          </button>
-        )}
-        <button
-          className={`voice-button${listening ? ' voice-button--active' : ''}`}
-          type="button"
-          onClick={startVoiceSearch}
-          aria-label="Recherche vocale"
-          title="Recherche vocale"
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <rect x="9" y="3" width="6" height="12" rx="3" />
-            <path d="M5.5 11.5a6.5 6.5 0 0 0 13 0M12 18v3m-4 0h8" />
-          </svg>
-        </button>
-        <button className="search-submit" type="submit">
-          Rechercher <span>→</span>
-        </button>
+        <IconButton
+          name="mic"
+          label={voice.listening ? "Arrêter le microphone" : "Recherche vocale"}
+          active={voice.listening}
+          onClick={voice.start}
+        />
+        <Button type="submit">Explorer</Button>
       </form>
-      {voiceMessage && (
-        <p className="voice-message" aria-live="polite">
-          {voiceMessage}
+      {voice.message && (
+        <p className="voice-message" role="status">
+          {voice.message}
         </p>
       )}
     </div>
